@@ -10,7 +10,7 @@ const NAME = "DirectAdmin-easyshare";
 const LISTEN_PORT = Number(process.env.PORT) || 0;     // 自适应端口
 
 const BEST_DOMAINS = [
-    "www.visa.cn",
+    "saas.sin.fan",
     "www.shopify.com",
     "store.ubi.com",
     "www.wto.org",
