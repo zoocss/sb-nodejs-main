@@ -2,7 +2,7 @@ process.on("uncaughtException", () => {});
 process.on("unhandledRejection", () => {});
 
 // ====== 只修改两个核心变量 UUID/DOMAIN ======
-const UUID = (process.env.UUID || "a4fa545d-115e-4ab6-8414-d9c750055859").trim();        // 替换"双引号中的UUID"
+const UUID = (process.env.UUID || "3c0e9bae-9074-40c8-b433-79f147730199").trim();        // 替换"双引号中的UUID"
 const DOMAIN = (process.env.DOMAIN || "us.cmcstv.sbs").trim();                    // 替换"双引号中的完整域名"
  
 // Panel 配置
